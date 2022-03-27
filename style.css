@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-center{
+    /* tamanho e padding da div do form */
+    padding: 20px;
+    width: 500px;
+}
+.cotainer-form{
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+}
+.cotainer-form h1{
+    text-align: center;
+    padding: 17px 0;
+}
+.cotainer-form form{
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.input input{
+    /* input de username e password */
+    width: 100%;
+    padding: 0 10px;
+    height: 30px;
+    margin: 15px 0 4px 0;
+    border-bottom: 2px solid rgb(194, 192, 192);
+    outline: none;
+    transition: all .3s linear;
+    letter-spacing: 1.1px;
+}
+.input input:focus{
+    border-color: #2980b9;
+}
+.senha a{
+    /* link de recuperação de senha */
+    font-size: 11px;
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+    transition: all .2s linear;
+}
+.senha a:hover{
+    color: #2980b9;
+}
+.cotainer-form input[type="submit"]{
+    /* botão de entrar */
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: #2980b9;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    transition: .3s;
+    border: 2px solid;
+    font-weight: 600;
+}
+.cotainer-form input[type="submit"]:hover{
+    background-color: #134769;
+}
+.criar-conta{
+    /* link de criar conta ( Cadastrar-se ) */
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+    text-align: center;
+}
+.criar-conta a{
+    text-decoration: none;
+    color: #2980b9;
+}
+.entrar-contas{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.footer .contas{
+    /* links de google e facebook */
+    padding: 0.4rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #155179;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+.footer .contas:first-child{
+    /* link google */
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(170, 169, 169);
+    font-size: 18px;
+    transition: all .2s linear;
+}
+.footer .contas:last-child{
+    /* link facebook */
+    margin-bottom: 25px;
+    font-size: 18px;
+    border: 1px solid #155179;
+    transition: all .2s linear;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+}
+/* Cores dos spans do nome GOOGLE */
+.azul{
+    color: #2980b9;
+}
+.red{
+    color: red;
+}
+.amarelo{
+    color: yellow;
+}
+.verde{
+    color: green;
+}
+.footer .contas:first-child:hover{
+    box-shadow: 0px 1px 10px 0 black;
+    transition: all .2s linear;
+}
+.footer .contas:last-child:hover{
+    background-color: #2980b9;
+    transition: all .2s linear;
+    box-shadow: 0px 2px 10px 0 black;
+}
